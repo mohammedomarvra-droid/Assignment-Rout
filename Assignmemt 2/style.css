@@ -1,0 +1,426 @@
+
+    
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    /* background-color: aquamarine; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.text {
+    float: left;
+    margin: 30px;
+    width: 40%;
+}
+
+
+
+.text img {
+    border-radius: 20px;
+    width: 70%;
+    margin-top: 70px;
+
+
+
+}
+
+.text h1 {
+    font-size: 60px;
+    text-align: left;
+}
+
+.text p {
+    font-size: large;
+    line-height: 1.6;
+    text-align: left;
+    opacity: .5;
+}
+
+.space {
+    width: auto;
+    text-align: left;
+
+}
+
+.not {
+    background-color: black;
+    border: 2px solid black;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 5;
+}
+
+.nots {
+    border: 2px solid gray;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.why-choose-us {
+    width: 100%;
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    border: opx solid;
+    color: black;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    margin-inline: auto;
+}
+
+.title h2 {
+    font-size: 2.25rem;
+}
+
+.title p {
+    font-size: 20px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.benefit-cards {
+    width: 100%;
+    text-align: center;
+    padding-left: 40px;
+    text-align: center;
+
+}
+
+.card {
+    width: 20%;
+    height: 60%;
+    text-align: center;
+    border: 3px teal solid;
+    margin: 0 1.5;
+    padding: 20px;
+    display: inline-block;
+    /* float: left; */
+    margin-left: 100px;
+    border-radius: 20px;
+    line-height: 1.5;
+    overflow: hidden;
+     background-color: rgba(64, 179, 96, 0.1);
+
+}
+
+.clear-fix {
+
+    clear: both;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.blue {
+    border: 20px blue solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.green {
+    border: 20px green solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.red {
+    border: 20px purple solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.more-benefits {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 40px;
+
+}
+
+/* .contants {
+    float: left;
+    margin: 50px;
+    width: 40%;
+    border: 2px black solid;
+    margin-top: 5px;
+    overflow: hidden;
+    background-color: aqua;
+} */
+.image {
+    overflow: hidden;
+    width: 40%;
+    float: left;
+    margin-top: 40px;
+}
+
+.image img {
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 70px;
+    float: left;
+    margin-top: 10px;
+}
+
+.contant {
+    text-align: left;
+    float: left;
+    overflow: auto;
+    margin-left: 60px;
+    margin-top: 3px;
+    width: 40%;
+}
+
+.contant h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.contant h4 {
+    font-size: 20px;
+    color: black;
+}
+
+.contant p {
+    font-size: 20px;
+    color: gray;
+}
+
+.text4 {
+    border-left: 5px #333 solid;
+    padding-left: 15px;
+}
+
+.title h2 {
+    font-size: 2.25rem;
+}
+
+.title p {
+    font-size: 20px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.social-proof {
+    margin-top: 50px;
+}
+.grid-cols{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.bg-blue{
+    border: 2px rebeccapurple solid;
+     background-color: rgba(22,22, 243, .1);
+    width: 22%;
+}
+.bg-green{
+    border: 2px rebeccapurple solid;
+    background-color: rgba(64, 179, 96, 0.1);
+    width: 22%;
+    
+}
+.bg-pink{
+    border: darkblue 2px solid;
+     background-color: rgba(240,22, 243, .1);
+    width: 22%;
+}
+.flex-item img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+.flex-item{
+    padding: 30px;
+    text-align: left;
+    
+}
+.flex-item p{
+    font-size: large;
+}
+.flex-item h4{
+    font-size: large;
+}
+.bg-blue,.bg-green,.bg-pink{
+    float: left;
+    margin: 0 1.5%;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 50px;
+}
+.line{
+    line-height: .5;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.topices{
+    background-color:#fbfaf4;
+    padding: 100px 170px;
+    font-size: 0px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.topice{
+    /* border: 2px #d8e2dc solid; */
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    width: 250px;
+    display: inline-block;
+    margin-inline: 8px;
+    /* background-color: #ffffff; */
+    /* text-align: left; */
+    text-align: center;
+    
+}
+.topice span{
+    color: black;
+    display: inline-block;
+    /* margin-bottom: 30px; */
+    text-align: center;
+    font-size: 40px;
+}
+
+.topice p{
+    color: black;
+    line-height:1.6;
+}
+.forms{
+    width: 70%;
+    
+    text-align: center;
+}
+.form{
+    height: 50px;
+    padding: 30px;
+}
+.forms-item{
+    background-color: rgba(230, 213,220, .2);
+    margin-left: 40%;
+    /* margin-bottom: 40%; */
+    padding: 30px;
+
+}
+
+
+.sumpit{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    
+    
+}
+.fon{
+    text-align: left;
+    display: block;
+}
+.but{
+    width: 93%;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+}
+.form-inline{
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin: 20px;
+    margin-left: 20px;
+}
+footer{
+    background-color: #021f3a;
+    color: white;
+    padding: 40px 0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.footer-content{
+    width: 31.33%;
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    line-height: 2rem;
+    border-bottom: #333;
+    vertical-align: top;
+}
+ul{
+    list-style: none;
+}
+
+.footer-buttom{
+    margin-top: 30px;
+
+}
+.left{
+    float: left;
+}
+.a{
+    float: right;
+}
+
+.hori li{
+    display: block;
+    
+}
+.very li{
+display: inline-block;
+margin: 20px;
+}
+.end{
+    border-bottom: 2px solid red;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+
+    padding: 10px;
+}
+
+
